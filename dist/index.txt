@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="index.css">
+   
+    <title>Document</title>
+</head>
+<body>
+ 
+ <nav class="navbar sticky-top navbar-expand-lg ">
+      <img src="images/businessmen (1).png" alt="" width="30" height="24">
+      <a class="navbar-brand" href="#">ConfoZone</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Events</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link " href="#">FAQs</a>
+            </li>
+           
+          </ul>
+           
+          <form class="d-flex"> 
+            <button class="btn host" type="submit">Host Login</button>
+            <button class="btn par" type="submit">Attend an Event</button>
+          </form>
+           </div>
+         </nav>
+      <!--navbar-->  
+
+<!--home top-->
+     <div class="container">
+  <div class="row home">
+    <div class="col">
+      <h1 class="istam">All your events, all on ConfoZone</h1>
+      <h4 class="unadi">One platform to create, manage & host your virtual events.</h4>
+      <h4 class="unadi">Use the most customizable hybrid events platform to deliver immersive and interactive experiences</h4>
+      <button type="button" class="btn exp">Explore More</button>
+      <br>
+      <button type="button" class="btn reg">Create An Account</button>
+    </div>
+    <div class="col">
+     <div class="alignn">
+    <img src="images/title_1.jpeg" class="im" alt="image-name" />
+</div>
+    </div>
+  </div>
+
+
+
+    <!--2nd part-->
+
+    
+    <section id="secondpart">
+      
+      <div class="con1">
+        <div class="row">
+          <div class="col-lg-5">
+       <h2 class="headin">Why to use ConfoZone?</h2>
+       <img  class="im1" src="images/2nd_1.jpg" alt="iphone-mockup">
+       </div>
+       <div class="col-lg-7">
+       <ul class="meeting-features-notes">
+         <li>Simple to use and easily scalable</li>
+         <li>Round the clock support</li>
+         <li>Industrial standard security</li>
+         <li>Enterprise level experience for all</li>
+         <li>Interactive web meeting tools</li>
+         <li>Affordable, no hidden pricing structure</li>
+         <li>Deep integration with ConfoZone's ecosystem and other major third-party services</li>
+        <li>Powerful software, hardware, & services that blend ease of use with deep customization so you can craft the event you envision across the entire event lifecycle.</li>
+      </ul>  
+      </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3rd section -->
+
+    
+    <section id="third" class="press">
+      <h2 class="press_title">TRUSTED BY TEAMS AT</h2>
+      <div class="makecenter">
+      <img class="presslogo" src="https://hopin.com/wfimg/5fa24a97853b6c62b7063020/610bdc3a87ec8669708b34f4_slack-light.svg" alt="tc-logo">
+      <img class="presslogo" src="https://hopin.com/wfimg/5fa24a97853b6c62b7063020/610bdc3aa972e3307a8fc63b_vmware-light.svg" alt="tnw-logo">
+      <img class="presslogo" src="https://hopin.com/wfimg/5fa24a97853b6c62b7063020/610bdc3711194a85d7302a7a_The-Atlantic-light.svg" alt="mashable-logo">
+      <img class="presslogo" src="https://hopin.com/wfimg/5fa24a97853b6c62b7063020/610bdc3ac08f1d1f460b09a5_twitch-light.svg" alt="biz-insider-logo">
+      <img class="presslogo" src="https://hopin.com/wfimg/5fa24a97853b6c62b7063020/610bdc36124ef46edf6ce02a_wsj-light.svg" alt="mashable-logo">
+     </div>
+  
+    </section>
+
+    
+
+    <!-- 4section -->
+      <div class="container1">
+
+  
+      <div class="row">
+        <div class="col-lg-6 vid_pla_body1">
+          <video  class="vid" width="480" height="400" autoplay muted loop>
+            <source class="embed-responsive" src="Videos/body_1.mp4" type="video/mp4">
+          </video>
+        </div>
+        
+        <div class="col-lg-6">  
+        <h1 class="body1_head">Host virtually physical events</h1>
+        <p class="body1_para">Welcome users in the lobby with a personalised check-in. Allow speakers to engage with the audience via interactive tools. There's even a dedicated area where sponsors present themselves. Last but not least: detailed reports are available to organisers to calculate ROI and monitor attendance. Your next online or hybrid event will feel virtually physical but from the comfort of everybody's home. </p>
+        <div class="body1_list">
+        <ul class="waste">
+          <li>Personalised check-in</li>
+         <li>Advanced engagement tools</li>
+         <li>Elaborate sponsor booths</li>
+         <li>Attend from anywhere</li>
+        </ul>
+      </div>
+        </div>   
+      </div>
+    </div>
+
+
+      <div class="container1">
+
+  
+      <div class="row">
+        <div class="col-lg-6">  
+          <h1 class="body1_head">Enjoy next-level networking</h1>
+          <p class="body1_para">Networking is one of the main reasons why someone shows up for events. That’s why we’ve gone all-in on bringing in-person networking online. Our network carousel and smart matchmaking make sure users connect with similar-minded people. 1-on-1 or group meetings are easily arranged and valuable connections exported with a single click. </p>
+          <div class="body2_list">
+            <ul class="waste">
+            <li>Innovative network carousel</li>
+           <li>Smart matchmaking of users</li>
+           <li>Easily arrange 1–on-1 or group meetings</li>
+           <li>Physical networking made virtual</li>
+          </ul>
+          </div>
+          </div>
+        <div class="col-lg-6 vid_pla_body2">
+          <video  class="vid" width="480" height="400" autoplay muted loop>
+            <source class="embed-responsive" src="Videos/body_2.mp4" type="video/mp4">
+          </video>
+        </div>    
+      </div>
+    </div>
+   
+
+  
+    
+    <!-- footer -->
+
+    <div class="footer footerclr">
+      <div class="container">
+          <div class="row ">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 ">
+                  <img src="images/businessmen (1).png" alt="" width="50" height="50">
+              </div>
+          </div>
+          <hr class="footer-line">
+          <div class="row ">
+              <!-- footer-about -->
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                  <div class="footer-widget ">
+                      <div class="footer-title">Company</div>
+                      <ul class="list-unstyled">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Support</a></li>
+                          <li><a href="#">Press</a></li>
+                          <li><a href="#">Legal & Privacy</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- /.footer-about -->
+              <!-- footer-links -->
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                  <div class="footer-widget ">
+                      <div class="footer-title">Quick Links</div>
+                      <ul class="list-unstyled">
+                          <li><a href="#">News</a></li>
+                          <li><a href="#">Contact us</a></li>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- /.footer-links -->
+              <!-- footer-links -->
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 ">
+                  <div class="footer-widget ">
+                      <div class="footer-title">Social</div>
+                      <ul class="list-unstyled">
+                          <li><a href="#">Twitter</a></li>
+                          <li><a href="#">Google +</a></li>
+                          <li><a href="#">Linked In</a></li>
+                          <li><a href="#">Facebook</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- /.footer-links -->
+              <!-- footer-links -->
+              <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-6 ">
+                  <div class="footer-widget ">
+                      <h3 class="footer-title">Subscribe Newsletter</h3>
+                      <form>
+                          <div class="newsletter-form">
+                              <input class="form-control" placeholder="Enter Your Email address" type="text">
+                              <button class="btn btn-default btn-sm" type="submit">Go</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <!-- /.footer-links -->
+              <!-- tiny-footer -->
+          </div>
+          <div class="row ">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center ">
+                  <div class="tiny-footer">
+                      <p>Copyright © All Rights Reserved 2020 </p>
+                  </div>
+              </div>
+              <!-- /. tiny-footer -->
+          </div>
+      </div>
+  </div>
+  <!-- /.footer -->
+
+    
+</body>
+</html>
