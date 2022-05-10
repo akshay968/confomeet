@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/createEvent.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <div class="fixed-top">
+    <nav class="navbar navbar-expand-lg ">
+        <img src="Assets/businessmen (1).png" alt="" width="30" height="24">
+        <a class="navbar-brand" href="/index.html">ConfoZone</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq.html">FAQs</a>
+                </li>
+
+            </ul> 
+            <a href="/profile.html"><img class="prof_img"  src="Assets/profile_pic.png" alt="profile_image"></a>
+        </div>
+    </nav>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+   
+    <main>
+        <form id="register" method="post" enctype="multipart/form-data">
+        <h2 id="register__title">Create event</h2>
+        <div class="register__box">
+          <label for="Conference">Conference Name</label>
+          <input id="Conference" type="text" maxLength="64" required placeholder="Conference Name">
+        </div>
+        <div class="register__box">
+          <label for="mail">E-mail</label>
+          <input id="mail" type="email" size="64" maxLength="64" required placeholder="Example@gmail.com" pattern=".+@gmail.com" title="Example@gmail.com">
+        </div>
+        <div class="register__box">
+          <label for="Conference Date">Conference Date</label>
+          <input id="Date" type="date"  required placeholder="Conference Date">
+        </div>
+        <div class="register__box">
+          <label for="Start time">Start Time</label>
+          <input id="Start time" type="time"  required placeholder="Start time">
+        </div>
+        <div class="register__box">
+          <label for="End time">End Time</label>
+          <input id="End time" type="time"  required placeholder="End time">
+        </div>
+        <div class="register__box">
+          <label for="Meet link">Meet link</label>
+          <input id="Meet link" type="url"  required placeholder="Meet link">
+        </div>
+        <div class="register__box">
+          <label for="Event description">Event Description</label>
+          <input id="Event description" type="text"  required placeholder="Describe event">
+        </div>
+        <div class="register__box">
+          <label for="limit">Limit</label>
+          <input id="limit" type="number"  required placeholder="limit">
+        </div>
+        <input type="button" value="Create Event" id="register__btn">
+        </form>  
+        <div id="overlay" class="hidden">
+          <div id="avatar"></div>
+        </div>
+      </main>
+      <script crossorigin='anonymous' src='https://kit.fontawesome.com/85274771d6.js'></script>
+      <script src="createEvent.js"></script>
+      <script src="/dist/bundle.js"></script>
+    </body>
+
+
+ 
+  
+
+</html>

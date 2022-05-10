@@ -59,20 +59,21 @@ if(create_event)
  //signup for the users
     const signupboo = document.querySelector('.signup')
     const arri = []
+   
     if(signupboo){
      
-      signupboo.addEventListener('submit', handlesignup)
-    }
+      signupboo.addEventListener('click', (e)=>{
+        console.log("jhcvb")
     
-    function handlesignup(e){
+    // function handlesignup(e){
       e.preventDefault();
-      console.log("in");
+      console.log(signupboo); 
       const signup = document.querySelector('.signup')
 
       const email= signup.suemail.value;
       userName = email;
       const password = signup.supassword.value
-      const temppass = supassword;
+      const temppass = password;
       createUserWithEmailAndPassword(auth, email, password)
         .then((cred) =>{
             console.log('User Created', cred.user);
@@ -81,19 +82,18 @@ if(create_event)
         .catch((err) => {
           console.log(err.message)
         })
-
-        addDoc(colRef2, {
-          //   host: createEvent.host.value,
-          // starttime: createEvent.starttime.value,
-          // endtime: createEvent.endtime.value,
-          // date: createEvent.date.value,
-          // meetlink: createEvent.meetlink.value,
-          // eventtype: createEvent.eventtype.value,
-          // eid: val,
-            emailId: userName,
-            password: temppass,
-            registered: arri
-          })
-
+      })
     }
+      
+
+
+
+
+
+
+
+
+
+
+
 
