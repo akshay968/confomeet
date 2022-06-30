@@ -20,7 +20,7 @@
         <div class="fixed-top">
     <nav class="navbar navbar-expand-lg ">
         <img src="Assets/businessmen (1).png" alt="" width="30" height="24">
-        <a class="navbar-brand" href="/index.html">ConfoZone</a>
+        <a class="navbar-brand" href="dist/index.html">ConfoZone</a>
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -30,17 +30,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="/index.html">Home</a>
+                    <a class="nav-link " href="/dist/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="/events.html">Events</a>
+                    <a class="nav-link " href="/dist/events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="/faq.html">FAQs</a>
+                    <a class="nav-link " href="/dist/faq.html">FAQs</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link " href="/dist/createEvent.html">Create Event</a>
+                </li>
             </ul> 
-            <a href="/profile.html"><img class="prof_img"  src="Assets/profile_pic.png" alt="profile_image"></a>
+            <a href="/dist/profile.html"><img class="prof_img"  src="Assets/profile_pic.png" alt="profile_image"></a>
         </div>
     </nav>
     </div>
@@ -53,42 +55,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
    
     <main>
-        <form id="register" method="post" enctype="multipart/form-data">
-        <h2 id="register__title">Create event</h2>
-        <div class="register__box">
-          <label for="Conference">Conference Name</label>
-          <input id="Conference" type="text" maxLength="64" required placeholder="Conference Name">
-        </div>
-        <div class="register__box">
-          <label for="mail">E-mail</label>
-          <input id="mail" type="email" size="64" maxLength="64" required placeholder="Example@gmail.com" pattern=".+@gmail.com" title="Example@gmail.com">
-        </div>
-        <div class="register__box">
-          <label for="Conference Date">Conference Date</label>
-          <input id="Date" type="date"  required placeholder="Conference Date">
-        </div>
-        <div class="register__box">
-          <label for="Start time">Start Time</label>
-          <input id="Start time" type="time"  required placeholder="Start time">
-        </div>
-        <div class="register__box">
-          <label for="End time">End Time</label>
-          <input id="End time" type="time"  required placeholder="End time">
-        </div>
-        <div class="register__box">
-          <label for="Meet link">Meet link</label>
-          <input id="Meet link" type="url"  required placeholder="Meet link">
-        </div>
-        <div class="register__box">
-          <label for="Event description">Event Description</label>
-          <input id="Event description" type="text"  required placeholder="Describe event">
-        </div>
-        <div class="register__box">
-          <label for="limit">Limit</label>
-          <input id="limit" type="number"  required placeholder="limit">
-        </div>
-        <input type="button" value="Create Event" id="register__btn">
-        </form>  
+        
+    <title>create_event</title>
+  </head>
+  <body>
+      <form class="createevent mt-5" >
+          <label for="Type_of_the_event" required>Type_of_the_event</label>
+      <select  name="Type_of_the_event">
+          <option value="Keynote_session">Keynote_session</option>
+          <option value="Conference">Conference</option>
+          <option value="Private_meeting">Private_meeting</option>
+          <option value="Other">Other</option>
+      </select>
+  <br>
+  <br>
+      <label for="Title_of_the_event">Title_of_the_event:</label>
+      <input type="text" name="Title_of_the_event" required>
+      <br>
+      <br>
+      <label for="Organising_by">Organising_by:</label>
+      <input type="text" name="Organising_by" required>
+      <br>
+      <br>
+      <label for="Speakers">Speakers:</label>
+      <input type="text" name="Speakers" required>
+      <br>
+      <br>
+      <label for="Edate">EventDate:</label>
+      <input type="date" name="Edate" required>
+      <br>
+      <br>
+      <label for="Start_time">Start_time:</label>
+      <input type="time" name="Start_time" required>
+      <br>
+      <br>
+      <label for="End_time">End_time:</label>
+      <input type="time" name="End_time" required>
+      <br>
+      <br>
+      <label for="Limit">Limit:</label>
+      <input type="text" name="Limit" required>
+      <br>
+      <br>
+      <label for="Link">Link:</label>
+      <input type="text" name="Link" required>
+      <br>
+      <br>
+      <button class="btn btn-primary">Create</button>
+    </form>
         <div id="overlay" class="hidden">
           <div id="avatar"></div>
         </div>

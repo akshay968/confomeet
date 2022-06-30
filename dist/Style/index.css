@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+body{
+    background-color: #26252D;
+}
 .navbar{
     background-color: #15131E;
     padding-top: 15px;
@@ -139,6 +142,7 @@ li{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+    color:white;
 }
 .presslogo{
     width: 30;
@@ -295,6 +299,10 @@ li{
 a.btn-card {
     text-decoration: none;
     color: #fff;
+}
+
+.prof_img{
+    width: 45px;
 }
 /* End card section */
 

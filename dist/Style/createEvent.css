@@ -460,3 +460,7 @@ input[type="checkbox"]:checked {
         }
     }
 }
+
+.createevent label{
+    color: white !important
+}
